@@ -98,3 +98,15 @@ function sum3 (arr) {
 sum3([1,2,3,4,5]); //returns 15
 sum3([6,7,7]); //returns 20
 
+
+/* 6. Square Root
+* Given an array of numbers, find the square root of each element in the array.
+*/
+
+const arr = [1,4, 9,16,25,36]
+
+function squareRoot (arr) {
+    return arr.map(item => Math.sqrt(item))
+} 
+
+console.log(squareRoot(arr))
